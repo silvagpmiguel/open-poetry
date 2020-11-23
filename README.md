@@ -1,4 +1,4 @@
-# Poem Application
+# Open Poetry
 
 ## Project
 
@@ -16,7 +16,7 @@ mvn package
 mvn clean
 ``` 
 
-## Poem App 
+## Poem API 
 
 `cd <project-root>/poem-app`
 
@@ -26,7 +26,7 @@ mvn clean
 mvn spring-boot:run
 ```
 
-## Poem Web
+## Poem WEB
 
 `cd <project-root>/poem-web`
 
@@ -62,4 +62,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Datasource (Postgres)
 
-Update url, username and password in `<project-root>/poem-app/src/main/resources/application.properties application.properties`
+Update url, username and password in `<project-root>/poem-app/src/main/resources/application.properties`

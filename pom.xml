@@ -15,11 +15,11 @@
     <groupId>com.poem</groupId>
     <artifactId>poem-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>PoemApp</name>
+    <name>open-poetry</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <application.name>open-poem</application.name>
+        <application.name>open-poetry</application.name>
         <maven-clean.version>2.4.1</maven-clean.version>
     </properties>
 
@@ -35,6 +35,10 @@
                     <filesets>
                         <fileset>
                             <directory>poem-app/src/main/resources/public</directory>
+                            <followSymlinks>false</followSymlinks>
+                        </fileset>
+                        <fileset>
+                            <directory>poem-app/target/</directory>
                             <followSymlinks>false</followSymlinks>
                         </fileset>
                         <fileset>
