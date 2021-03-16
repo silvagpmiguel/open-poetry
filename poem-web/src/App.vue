@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <MainPage />
+    <Topnav />
+    <router-view />
   </div>
 </template>
 
 <script>
-import MainPage from './components/MainPage.vue'
+import Topnav from './components/Topnav.vue'
 
 export default {
   name: 'App',
   components: {
-    MainPage,
+    Topnav,
   },
 }
 </script>
@@ -22,6 +23,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
